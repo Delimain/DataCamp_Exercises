@@ -745,8 +745,6 @@ shining_list <- list(moviename = mov, actors = act, reviews = rev)
 ```
 ## Selecting elements from a list
 ```
-# shining_list is already pre-loaded in the workspace
-
 # Print out the vector representing the actors
 shining_list$actors
 
@@ -755,8 +753,6 @@ shining_list$actors[2]
 ```
 ## Adding more movie information to the list
 ```
-# shining_list, the list containing movie name, actors and reviews, is pre-loaded in the workspace
-
 # We forgot something; add the year to shining_list
 shining_list_full <- c(shining_list, year = 1980)
 
