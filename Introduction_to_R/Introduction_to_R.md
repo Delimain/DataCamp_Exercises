@@ -508,7 +508,7 @@ us_visitors <- visitors[ ,1]
 mean(us_visitors)
 ```
 
-# Factors
+# 4. Factors
 
 ## What's a factor and why would you use it?
 ```
@@ -612,7 +612,7 @@ da5 <-factor_speed_vector[5]
 da2 > da5
 ```
 
-# Data frames
+# 5. Data frames
 
 ## What's a data frame?
 ```
@@ -695,7 +695,7 @@ positions <- order(planets_df$diameter)
 planets_df[positions, ]
 ```
 
-# Lists
+# 6. Lists
 
 ## Lists, why would you need them?
 ```
