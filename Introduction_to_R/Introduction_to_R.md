@@ -1,3 +1,4 @@
+# Table of Contents
 1. [Intro to Basics](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R.md#intro-to-basics)
    1. [How it works](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R.md#how-it-works)
    2. [Arithmetic with R](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R.md#arithmetic-with-r)
@@ -67,7 +68,7 @@
    6. [Selecting elements from a list](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R.md#selecting-elements-from-a-list)
    7. [Adding more movie information to the list](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R.md#adding-more-movie-information-to-the-list)
    
-# Intro to Basics
+# 1. Intro to Basics
 
 ## How it Works
 ```
@@ -75,7 +76,7 @@
 3 + 4
 
 # Calculate 6 + 12
-6+12
+6 + 12
 ```
 ## Arithmetic with R
 ```
@@ -92,10 +93,10 @@
 (5 + 5) / 2 
 
 # Exponentiation
-2^5
+2 ^ 5
 
 # Modulo
-28%%6
+28 %% 6
 ```
 ## Variable assignment
 ```
@@ -117,13 +118,13 @@ my_apples
 ```
 # Assign a value to the variables my_apples and my_oranges
 my_apples <- 5
-my_oranges<-6
+my_oranges <- 6
 
 # Add these two variables together
-my_apples+my_oranges
+my_apples + my_oranges
 
 # Create the variable my_fruit
-my_fruit<-my_apples+my_oranges
+my_fruit <- my_apples + my_oranges
 ```
 ## Apples and oranges
 ```
@@ -165,7 +166,7 @@ class(my_character)
 class(my_logical)
 ```
 
-# Vectors
+# 2. Vectors
 
 ## Create a vector
 ```
@@ -214,7 +215,7 @@ roulette_vector <- c(-24, -50, 100, -350, 10)
 days_vector <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
  
 # Assign the names of the day to roulette_vector and poker_vector
-names(poker_vector) <-   days_vector
+names(poker_vector) <- days_vector
 names(roulette_vector) <- days_vector
 ```
 ## Calculating total winnings
@@ -223,7 +224,7 @@ A_vector <- c(1, 2, 3)
 B_vector <- c(4, 5, 6)
 
 # Take the sum of A_vector and B_vector
-total_vector <- A_vector+B_vector
+total_vector <- A_vector + B_vector
   
 # Print out total_vector
 total_vector
@@ -253,7 +254,7 @@ names(roulette_vector) <- days_vector
 total_poker <- sum(poker_vector)
 
 # Total winnings with roulette
-total_roulette <-  sum(roulette_vector)
+total_roulette <- sum(roulette_vector)
 
 # Total winnings overall
 total_week <- total_poker+total_roulette
@@ -271,11 +272,11 @@ names(poker_vector) <- days_vector
 names(roulette_vector) <- days_vector
 
 # Calculate total gains for poker and roulette
-total_poker <-sum(poker_vector)
-total_roulette <-sum(roulette_vector)
+total_poker <- sum(poker_vector)
+total_roulette <- sum(roulette_vector)
 
 # Check if you realized higher total gains in poker than in roulette 
-total_poker>total_roulette
+total_poker > total_roulette
 ```
 ## Vector selection: the good times
 ```
@@ -299,7 +300,7 @@ names(poker_vector) <- days_vector
 names(roulette_vector) <- days_vector
 
 # Define a new variable based on a selection
-poker_midweek <- poker_vector[c(2,3,4)]
+poker_midweek <- poker_vector[c(2, 3, 4)]
 ```
 ## Vector selection: the good times (3)
 ```
@@ -338,7 +339,7 @@ names(poker_vector) <- days_vector
 names(roulette_vector) <- days_vector
 
 # Which days did you make money on poker?
-selection_vector <- poker_vector>0
+selection_vector <- poker_vector > 0
   
 # Print out selection_vector
 selection_vector
@@ -368,17 +369,19 @@ names(poker_vector) <- days_vector
 names(roulette_vector) <- days_vector
 
 # Which days did you make money on roulette?
-selection_vector <- roulette_vector>0
+selection_vector <- roulette_vector > 0
 
 # Select from roulette_vector these days
 roulette_winning_days <- roulette_vector[selection_vector]
 ```
-# Matrices
+
+
+# 3. Matrices
 
 ## What's a matrix?
 ```
 # Construct a matrix with 3 rows that contain the numbers 1 up to 9
-matrix(1:9 ,byrow=TRUE, nrow=3)
+matrix(1:9, byrow = TRUE, nrow = 3)
 ```
 ## Analyze matrices, you shall
 ```
@@ -391,7 +394,7 @@ return_jedi <- c(309.306, 165.8)
 box_office <- c(new_hope, empire_strikes, return_jedi)
 
 # Construct star_wars_matrix
-star_wars_matrix <- matrix(box_office, byrow = TRUE, nrow=3)
+star_wars_matrix <- matrix(box_office, byrow = TRUE, nrow = 3)
 ```
 ## Naming a matrix
 ```
@@ -408,10 +411,10 @@ region <- c("US", "non-US")
 titles <- c("A New Hope", "The Empire Strikes Back", "Return of the Jedi")
 
 # Name the columns with region
-colnames(star_wars_matrix)<-region
+colnames(star_wars_matrix) <- region
 
 # Name the rows with titles
-rownames(star_wars_matrix)<-titles
+rownames(star_wars_matrix) <- titles
 
 # Print out star_wars_matrix
 star_wars_matrix
@@ -467,13 +470,13 @@ total_revenue_vector
 all_wars_matrix
 
 # Select the non-US revenue for all movies
-non_us_all <- all_wars_matrix[,2]
+non_us_all <- all_wars_matrix[ ,2]
   
 # Average non-US revenue
 mean(non_us_all)
   
 # Select the non-US revenue for first two movies
-non_us_some <- all_wars_matrix[1:2,2]
+non_us_some <- all_wars_matrix[1:2, 2]
   
 # Average non-US revenue for first two movies
 mean(non_us_some)
@@ -484,7 +487,7 @@ mean(non_us_some)
 all_wars_matrix
 
 # Estimate the visitors
-visitors <- all_wars_matrix/5
+visitors <- all_wars_matrix / 5
   
 # Print the estimate to the console
 visitors
@@ -496,10 +499,10 @@ all_wars_matrix
 ticket_prices_matrix
 
 # Estimated number of visitors
-visitors <- all_wars_matrix/ticket_prices_matrix
+visitors <- all_wars_matrix / ticket_prices_matrix
 
 # US visitors
-us_visitors <- visitors[,1]
+us_visitors <- visitors[ ,1]
 
 # Average number of US visitors
 mean(us_visitors)
@@ -510,7 +513,7 @@ mean(us_visitors)
 ## What's a factor and why would you use it?
 ```
 # Assign to the variable theory what this chapter is about!
-theory<-"factors for categorical variables"
+theory <- "factors for categorical variables"
 ```
 ## What's a factor and why would you use it? (2)
 ```
@@ -531,7 +534,7 @@ factor_animals_vector <- factor(animals_vector)
 factor_animals_vector
 
 # Temperature
-temperature_vector <- c("High", "Low", "High","Low", "Medium")
+temperature_vector <- c("High", "Low", "High", "Low", "Medium")
 factor_temperature_vector <- factor(temperature_vector, order = TRUE, levels = c("Low", "Medium", "High"))
 factor_temperature_vector
 ```
@@ -587,7 +590,7 @@ speed_vector <- c("medium", "slow", "slow", "medium", "fast")
 speed_vector <- c("medium", "slow", "slow", "medium", "fast")
 
 # Convert speed_vector to ordered factor vector
-factor_speed_vector <- factor(speed_vector,ordered=T, levels=c("slow", "medium", "fast"))
+factor_speed_vector <- factor(speed_vector,ordered = TRUE, levels = c("slow", "medium", "fast"))
 
 # Print factor_speed_vector
 factor_speed_vector
@@ -606,7 +609,7 @@ da2 <-factor_speed_vector[2]
 da5 <-factor_speed_vector[5]
 
 # Is data analyst 2 faster than data analyst 5?
-da2>da5
+da2 > da5
 ```
 
 # Data frames
@@ -647,25 +650,19 @@ str(planets_df)
 ```
 ## Selection of data frame elements
 ```
-# The planets_df data frame from the previous exercise is pre-loaded
-
 # Print out diameter of Mercury (row 1, column 3)
 planets_df[1,3]
 
 # Print out data for Mars (entire fourth row)
-planets_df[4,]
+planets_df[4, ]
 ```
 ## Selection of data frame elements (2)
 ```
-# The planets_df data frame from the previous exercise is pre-loaded
-
 # Select first 5 values of diameter column
 planets_df[1:5, "diameter"]
 ```
 ## Only planets with rings
 ```
-# planets_df is pre-loaded in your workspace
-
 # Select the rings variable from planets_df
 rings_vector <- planets_df$rings
   
@@ -674,31 +671,25 @@ rings_vector
 ```
 ## Only planets with rings (2)
 ```
-# planets_df and rings_vector are pre-loaded in your workspace
-
 # Adapt the code to select all columns for planets with rings
-planets_df[rings_vector,]
+planets_df[rings_vector, ]
 ```
 ## Only planets with rings but shorter
 ```
-# planets_df is pre-loaded in your workspace
-
 # Select planets with diameter < 1
-subset(planets_df,subset=diameter<1)
+subset(planets_df, subset=diameter < 1)
 ```
 ## Sorting
 ```
 # Play around with the order function in the console
-a<-c(1,51,234,143,11,3,2,342,0,23,2,3)
+a <- c(1, 51, 234, 143, 11, 3, 2, 342, 0, 23, 2, 3)
 order(a)
 a[order(a)]
 ```
 ## Sorting your data frame
 ```
-# planets_df is pre-loaded in your workspace
-
 # Use order() to create positions
-positions <-  order(planets_df$diameter)
+positions <- order(planets_df$diameter)
 
 # Use positions to sort planets_df
 planets_df[positions, ]
@@ -723,10 +714,10 @@ my_vector <- 1:10
 my_matrix <- matrix(1:9, ncol = 3)
 
 # First 10 elements of the built-in data frame mtcars
-my_df <- mtcars[1:10,]
+my_df <- mtcars[1:10, ]
 
 # Construct list with these different elements:
-my_list <- list(my_vector,my_matrix,my_df)
+my_list <- list(my_vector, my_matrix, my_df)
 ```
 ## Creating a named list
 ```
@@ -737,10 +728,10 @@ my_vector <- 1:10
 my_matrix <- matrix(1:9, ncol = 3)
 
 # First 10 elements of the built-in data frame mtcars
-my_df <- mtcars[1:10,]
+my_df <- mtcars[1:10, ]
 
 # Adapt list() call to give the components names
-my_list <- list(vec=my_vector, mat=my_matrix, df=my_df)
+my_list <- list(vec = my_vector, mat = my_matrix, df = my_df)
 
 # Print out my_list
 my_list
@@ -750,7 +741,7 @@ my_list
 # The variables mov, act and rev are available
 
 # Finish the code to build shining_list
-shining_list <- list(moviename = mov, actors=act, reviews=rev)
+shining_list <- list(moviename = mov, actors = act, reviews = rev)
 ```
 ## Selecting elements from a list
 ```
@@ -767,7 +758,7 @@ shining_list$actors[2]
 # shining_list, the list containing movie name, actors and reviews, is pre-loaded in the workspace
 
 # We forgot something; add the year to shining_list
-shining_list_full <- c(shining_list, year=1980)
+shining_list_full <- c(shining_list, year = 1980)
 
 # Have a look at shining_list_full
 str(shining_list_full)
