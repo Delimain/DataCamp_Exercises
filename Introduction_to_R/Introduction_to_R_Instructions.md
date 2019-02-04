@@ -1,4 +1,4 @@
-**Note**: At the time of writing, all the information herein--which has been copied verbatim to showcase markdown proficiency--is offered freely on datacamp.com and can be accessed via the link below. If you have an interest in learning data science, they are a highly valuable resource.
+**Note**: At the time of writing, all the information herein--which has been copied verbatim to showcase markdown proficiency--is offered freely on datacamp.com and can be accessed via the link below. If you have an interest in learning data science, it is a highly valuable resource.
 # [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
 
 ## Course Description
