@@ -1,4 +1,4 @@
-# Introduction to R
+# [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
 ## Table of Contents
 1. [Intro to Basics](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R.md#1-intro-to-basics)
    1. [How it works](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R.md#how-it-works)
