@@ -70,7 +70,7 @@
    6. [Selecting elements from a list](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#selecting-elements-from-a-list)
    7. [Adding more movie information to the list](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#adding-more-movie-information-to-the-list)
    
-# 1. Intro to Basics
+# 1. [Intro to Basics](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#1-intro-to-basics)
 
 ## How it Works
 ```
@@ -168,7 +168,7 @@ class(my_character)
 class(my_logical)
 ```
 
-# 2. Vectors
+# 2. [Vectors](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#2-vectors)
 
 ## Create a vector
 ```
@@ -378,7 +378,7 @@ roulette_winning_days <- roulette_vector[selection_vector]
 ```
 
 
-# 3. Matrices
+# 3. [Matrices](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#3-matrices)
 
 ## What's a matrix?
 ```
@@ -510,7 +510,7 @@ us_visitors <- visitors[ ,1]
 mean(us_visitors)
 ```
 
-# 4. Factors
+# 4. [Factors](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#4-factors)
 
 ## What's a factor and why would you use it?
 ```
@@ -614,7 +614,7 @@ da5 <-factor_speed_vector[5]
 da2 > da5
 ```
 
-# 5. Data frames
+# 5. [Data frames](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#5-data-frames)
 
 ## What's a data frame?
 ```
@@ -697,7 +697,7 @@ positions <- order(planets_df$diameter)
 planets_df[positions, ]
 ```
 
-# 6. Lists
+# 6. [Lists](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#6-lists)
 
 ## Lists, why would you need them?
 ```
