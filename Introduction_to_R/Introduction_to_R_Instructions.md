@@ -6,12 +6,13 @@
 In this introduction to R, you will master the basics of this beautiful open source language, including factors, lists and data frames. With the knowledge gained in this course, you will be ready to undertake your first very own data analysis. With over 2 million users worldwide R is rapidly becoming the leading programming language in statistics and data science. Every year, the number of R users grows by 40% and an increasing number of organizations are using it in their day-to-day activities. Leverage the power of R by completing this R online course today!
 
 ### Chapters
-1. [Intro to Basics](https://github.com/Delimain/DataCamp_Instructional_Notes/blob/master/Introduction_to_R/Introduction_to_R.md#1-intro-to-basics)
-2. [Vectors](https://github.com/Delimain/DataCamp_Instructional_Notes/blob/master/Introduction_to_R/Introduction_to_R.md#2-vectors)
-3. [Matrices](https://github.com/Delimain/DataCamp_Instructional_Notes/blob/master/Introduction_to_R/Introduction_to_R.md#3-matrices)
-4. [Factors](https://github.com/Delimain/DataCamp_Instructional_Notes/blob/master/Introduction_to_R/Introduction_to_R.md#4-factors)
-5. [Data frames](https://github.com/Delimain/DataCamp_Instructional_Notes/blob/master/Introduction_to_R/Introduction_to_R.md#5-data-frames)
-6. [Lists](https://github.com/Delimain/DataCamp_Instructional_Notes/blob/master/Introduction_to_R/Introduction_to_R.md#6-lists)
+1. [Intro to Basics](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#1-intro-to-basics)
+2. [Vectors](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#2-vectors)
+3. [Matrices](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#3-matrices
+)
+4. [Factors](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#4-factors)
+5. [Data frames](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#5-data-frames)
+6. [Lists](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#6-lists)
 
 ### 1. [Intro to Basics](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#1-intro-to-basics)
 
