@@ -1,4 +1,4 @@
-**Note**: At the time of writing, all the exercises herein are offered freely on datacamp.com and can be accessed via the link below. If you have an interest in learning data science, it is a highly valuable resource.
+**Note**: At the time of writing, all the exercises herein are offered freely on datacamp.com and can be accessed via the link below. If you have an interest in learning data science, it is a highly valuable resource.The information below is for personal and professional reference and is no substitute for the wealth of knowledge attained from completing the course itself.
 # [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
 ## Table of Contents
 1. [Intro to Basics](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#1-intro-to-basics)
