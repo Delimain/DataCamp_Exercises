@@ -1,76 +1,76 @@
 **Note**: At the time of writing, all the exercises herein are offered freely on datacamp.com and can be accessed via the link below. If you have an interest in learning data science, it is a highly valuable resource.The information below is for personal and professional reference and is no substitute for the wealth of knowledge attained from completing the course itself.
 # [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
 ## Table of Contents
-1. [Intro to Basics](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#1-intro-to-basics)
-   1. [How it works](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#how-it-works)
-   2. [Arithmetic with R](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#arithmetic-with-r)
-   3. [Variable assignment](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#variable-assignment)
-   4. [Variable assignment (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#variable-assignment-2)
-   5. [Variable assignment (3)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#variable-assignment-3)
-   6. [Apples and oranges](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#apples-and-oranges)
-   7. [Basic data types in R](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#basic-data-types-in-r)
-   8. [What's that data type?](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#whats-that-data-type)
-2. [Vectors](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#2-vectors)
-   1. [Create a vector](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#create-a-vector)
-   2. [Create a vector (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#create-a-vector-2)
-   3. [Create a vector (3)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#create-a-vector-3)
-   4. [Naming a vector](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#naming-a-vector)
-   5. [Naming a vector (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#naming-a-vector-2)
-   6. [Calculating total winnings](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#calculating-total-winnings)
-   7. [Calculating total winnings (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#calculating-total-winnings-2)
-   8. [Calculating total winnings (3)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#calculating-total-winnings-3)
-   9. [Comparing total winnings](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#comparing-total-winnings)
-   10. [Vector selection: the good times](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#vector-selection-the-good-times)
-   11. [Vector selection: the good times (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#vector-selection-the-good-times-2)
-   12. [Vector selection: the good times (3)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#vector-selection-the-good-times-3)
-   13. [Vector selection: the good times (4)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#vector-selection-the-good-times-4)
-   14. [Selection by comparison - Step 1](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#selection-by-comparison---step-1)
-   15. [Selection by comparison - Step 2](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#selection-by-comparison---step-2)
-   16. [Advanced selection](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#advanced-selection)
-3. [Matrices](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#3-matrices)
-   1. [What's a matrix?](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#whats-a-matrix)
-   2. [Analyze matrices, you shall](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#analyze-matrices-you-shall)
-   3. [Naming a matrix](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#naming-a-matrix)
-   4. [Calculating the worldwide box office](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#calculating-the-worldwide-box-office)
-   5. [Adding a column for the Worldwide box office](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#adding-a-column-for-the-worldwide-box-office)
-   6. [Adding a row](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#adding-a-row)
-   7. [The total box office revenue for the entire saga](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#the-total-box-office-revenue-for-the-entire-saga)
-   8. [Selection of matrix elements](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#selection-of-matrix-elements)
-   9. [A little arithmetic with matrices](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#a-little-arithmetic-with-matrices)
-   10. [A little arithmetic with matrices (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#a-little-arithmetic-with-matrices-2)
-4. [Factors](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#4-factors)
-   1. [What's a factor and why would you use it?](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#whats-a-factor-and-why-would-you-use-it)
-   2. [What's a factor and why would you use it? (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#whats-a-factor-and-why-would-you-use-it-2)
-   3. [What's a factor and why would you use it? (3)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#whats-a-factor-and-why-would-you-use-it-3)
-   4. [Factor levels](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#factor-levels)
-   5. [Summarizing a factor](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#summarizing-a-factor)
-   6. [Battle of the sexes](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#battle-of-the-sexes)
-   7. [Ordered factors](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#ordered-factors)
-   8. [Ordered factors (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#ordered-factors-2)
-   9. [Comparing ordered factors](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#comparing-ordered-factors)
-5. [Data frames](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#5-data-frames)
-   1. [What's a data frame?](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#whats-a-data-frame)
-   2. [Quick, have a look at your data set](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#quick-have-a-look-at-your-data-set)
-   3. [Have a look at the structure](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#have-a-look-at-the-structure)
-   4. [Creating a data frame](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#creating-a-data-frame)
-   5. [Creating a data frame (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#creating-a-data-frame-2)
-   6. [Selection of data frame elements](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#selection-of-data-frame-elements)
-   7. [Selection of data frame elements (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#selection-of-data-frame-elements-2)
-   8. [Only planets with rings](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#only-planets-with-rings)
-   9. [Only planets with rings (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#only-planets-with-rings-2)
-   10. [Only planets with rings but shorter](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#only-planets-with-rings-but-shorter)
-   11. [Sorting](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#sorting)
-   12. [Sorting your data frame](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#sorting-your-data-frame)
-6. [Lists](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#6-lists)
-   1. [Lists, why would you need them?](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#lists-why-would-you-need-them)
-   2. [Lists, why would you need them? (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#lists-why-would-you-need-them-2)
-   3. [Creating a list](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#creating-a-list)
-   4. [Creating a named list](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#creating-a-named-list)
-   5. [Creating a named list (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#creating-a-named-list-2)
-   6. [Selecting elements from a list](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#selecting-elements-from-a-list)
-   7. [Adding more movie information to the list](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Exercises.md#adding-more-movie-information-to-the-list)
+1. [Intro to Basics](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#1-intro-to-basics)
+   1. [How it works](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#how-it-works)
+   2. [Arithmetic with R](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#arithmetic-with-r)
+   3. [Variable assignment](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#variable-assignment)
+   4. [Variable assignment (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#variable-assignment-2)
+   5. [Variable assignment (3)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#variable-assignment-3)
+   6. [Apples and oranges](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#apples-and-oranges)
+   7. [Basic data types in R](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#basic-data-types-in-r)
+   8. [What's that data type?](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#whats-that-data-type)
+2. [Vectors](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#2-vectors)
+   1. [Create a vector](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#create-a-vector)
+   2. [Create a vector (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#create-a-vector-2)
+   3. [Create a vector (3)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#create-a-vector-3)
+   4. [Naming a vector](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#naming-a-vector)
+   5. [Naming a vector (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#naming-a-vector-2)
+   6. [Calculating total winnings](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#calculating-total-winnings)
+   7. [Calculating total winnings (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#calculating-total-winnings-2)
+   8. [Calculating total winnings (3)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#calculating-total-winnings-3)
+   9. [Comparing total winnings](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#comparing-total-winnings)
+   10. [Vector selection: the good times](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#vector-selection-the-good-times)
+   11. [Vector selection: the good times (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#vector-selection-the-good-times-2)
+   12. [Vector selection: the good times (3)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#vector-selection-the-good-times-3)
+   13. [Vector selection: the good times (4)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#vector-selection-the-good-times-4)
+   14. [Selection by comparison - Step 1](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#selection-by-comparison---step-1)
+   15. [Selection by comparison - Step 2](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#selection-by-comparison---step-2)
+   16. [Advanced selection](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#advanced-selection)
+3. [Matrices](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#3-matrices)
+   1. [What's a matrix?](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#whats-a-matrix)
+   2. [Analyze matrices, you shall](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#analyze-matrices-you-shall)
+   3. [Naming a matrix](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#naming-a-matrix)
+   4. [Calculating the worldwide box office](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#calculating-the-worldwide-box-office)
+   5. [Adding a column for the Worldwide box office](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#adding-a-column-for-the-worldwide-box-office)
+   6. [Adding a row](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#adding-a-row)
+   7. [The total box office revenue for the entire saga](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#the-total-box-office-revenue-for-the-entire-saga)
+   8. [Selection of matrix elements](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#selection-of-matrix-elements)
+   9. [A little arithmetic with matrices](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#a-little-arithmetic-with-matrices)
+   10. [A little arithmetic with matrices (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#a-little-arithmetic-with-matrices-2)
+4. [Factors](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#4-factors)
+   1. [What's a factor and why would you use it?](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#whats-a-factor-and-why-would-you-use-it)
+   2. [What's a factor and why would you use it? (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#whats-a-factor-and-why-would-you-use-it-2)
+   3. [What's a factor and why would you use it? (3)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#whats-a-factor-and-why-would-you-use-it-3)
+   4. [Factor levels](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#factor-levels)
+   5. [Summarizing a factor](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#summarizing-a-factor)
+   6. [Battle of the sexes](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#battle-of-the-sexes)
+   7. [Ordered factors](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#ordered-factors)
+   8. [Ordered factors (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#ordered-factors-2)
+   9. [Comparing ordered factors](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#comparing-ordered-factors)
+5. [Data frames](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#5-data-frames)
+   1. [What's a data frame?](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#whats-a-data-frame)
+   2. [Quick, have a look at your data set](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#quick-have-a-look-at-your-data-set)
+   3. [Have a look at the structure](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#have-a-look-at-the-structure)
+   4. [Creating a data frame](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#creating-a-data-frame)
+   5. [Creating a data frame (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#creating-a-data-frame-2)
+   6. [Selection of data frame elements](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#selection-of-data-frame-elements)
+   7. [Selection of data frame elements (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#selection-of-data-frame-elements-2)
+   8. [Only planets with rings](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#only-planets-with-rings)
+   9. [Only planets with rings (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#only-planets-with-rings-2)
+   10. [Only planets with rings but shorter](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#only-planets-with-rings-but-shorter)
+   11. [Sorting](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#sorting)
+   12. [Sorting your data frame](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#sorting-your-data-frame)
+6. [Lists](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#6-lists)
+   1. [Lists, why would you need them?](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#lists-why-would-you-need-them)
+   2. [Lists, why would you need them? (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#lists-why-would-you-need-them-2)
+   3. [Creating a list](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#creating-a-list)
+   4. [Creating a named list](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#creating-a-named-list)
+   5. [Creating a named list (2)](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#creating-a-named-list-2)
+   6. [Selecting elements from a list](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#selecting-elements-from-a-list)
+   7. [Adding more movie information to the list](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Exercises.md#adding-more-movie-information-to-the-list)
    
-# 1. [Intro to Basics](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#1-intro-to-basics)
+# 1. [Intro to Basics](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Instructions.md#1-intro-to-basics)
 
 ## How it Works
 ```
@@ -168,7 +168,7 @@ class(my_character)
 class(my_logical)
 ```
 
-# 2. [Vectors](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#2-vectors)
+# 2. [Vectors](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Instructions.md#2-vectors)
 
 ## Create a vector
 ```
@@ -378,7 +378,7 @@ roulette_winning_days <- roulette_vector[selection_vector]
 ```
 
 
-# 3. [Matrices](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#3-matrices)
+# 3. [Matrices](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Instructions.md#3-matrices)
 
 ## What's a matrix?
 ```
@@ -510,7 +510,7 @@ us_visitors <- visitors[ ,1]
 mean(us_visitors)
 ```
 
-# 4. [Factors](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#4-factors)
+# 4. [Factors](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Instructions.md#4-factors)
 
 ## What's a factor and why would you use it?
 ```
@@ -614,7 +614,7 @@ da5 <-factor_speed_vector[5]
 da2 > da5
 ```
 
-# 5. [Data frames](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#5-data-frames)
+# 5. [Data frames](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Instructions.md#5-data-frames)
 
 ## What's a data frame?
 ```
@@ -697,7 +697,7 @@ positions <- order(planets_df$diameter)
 planets_df[positions, ]
 ```
 
-# 6. [Lists](https://github.com/Delimain/DataCamp_Exercises/blob/master/Introduction_to_R/Introduction_to_R_Instructions.md#6-lists)
+# 6. [Lists](https://github.com/Delimain/DataCamp_Exercises/blob/master/R/Introduction_to_R/Introduction_to_R_Instructions.md#6-lists)
 
 ## Lists, why would you need them?
 ```
